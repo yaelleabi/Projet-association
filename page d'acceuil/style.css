@@ -1,0 +1,243 @@
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 15px;
+    border: 3px black solid;
+  }
+  li  {
+    display: inline;
+    width:100px;
+    padding: 20px ;
+  }
+  li a {
+    color: white;
+  }
+  .mainHeader{
+    display:flex;
+    justify-content: space-around
+  }
+  .title{
+    display :block;
+   /* justify-content: center;*/
+   
+    /*justify-content: space-between;*/
+  }
+ .logo{
+   width: 60px;
+   height: 60px;
+ }
+h1{
+    
+   font-size: 40px;
+   color:rgb(181, 138, 20)
+   /* text-align: center;*/
+}
+h2{
+    text-align: center;
+    color:rgb(181, 138, 20);
+    text-shadow: 0px 13px 5px #CEC777;
+
+}
+.menu{
+    text-align: center;
+    background-color: black;
+    text-decoration: white;
+}
+h3{
+  font-size: 40px;
+  font-family: 'Acme', sans-serif;
+  color:rgb(181, 138, 20);
+  text-align: center;
+
+}
+.first{
+    width: 95vw;
+    height: 40vh;
+    display: flex;
+    background-color: lightpink;
+    margin: 20px;
+    justify-content: space-around;
+}
+/*main{
+    display: flex;
+    justify-content: center;
+    size:80%;
+}*/
+.photo1{
+
+    align-items: end;
+    /*margin :auto;*/
+    width: 400px;
+    height: auto;
+    margin-left: 2px;
+    padding-left: 8px;
+}
+/*.photo2{
+    align-items: end;
+}*/
+
+.mainText{
+    font-size: 1.3em;
+    font-family: 'Signika Negative', sans-serif;
+    border :2px lightgray solid; 
+    padding :15px;
+    padding-left: 8px;
+    margin-bottom: 10px;
+    margin-right :8px;
+    background-color:rgba(231, 149, 162, 0.795);
+    width: 22em;
+    /*height:75%;*/
+
+}
+.second{
+  background-color: lightblue;
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+}
+  
+
+.photo2{
+ 
+  align-items: end;
+  width: 400px;
+  margin :20px;
+  padding-right: 8px;
+ /* padding-left: 8px*/;
+
+}
+.text2{
+ /* font-size: 20px;*/
+ font-size: 1.3em;
+  font-family: 'Signika Negative', sans-serif;
+  border :2px lightgray solid; 
+  margin :20px ;
+  padding :15px;
+  padding-left: 8px;
+  background-color:rgb(167, 198, 224);
+  width:400px;
+}
+.footer{
+  background-color: black;
+  margin: 50px;
+  padding: 15px;
+  margin-bottom: 0px;
+  /*display:flex;*/
+}
+.footerText
+{
+  color:rgb(194, 49, 49);
+  text-align: center;
+  /*align-items: center;*/
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+}
+.photo1,.photo2,.text2,.mainText{
+  margin-bottom:15px;
+  margin-top: 15px;
+  /*height: ;*/
+}
+.photo1,.photo2{
+  height: 260px;
+}
+
+@media screen and (max-width: 965px) {
+  .mainText , .text2{
+    font-size: 1.2em;
+  
+  }
+ .photo1 ,.photo2{
+  width:300px;
+  height: 200px;
+ }
+
+ .first ,.second{
+  height: 350px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+@media screen and (max-width:696px) {
+.first ,.second{
+      height: 20vh;
+      width:80vw;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .mainText ,.text2{
+    height: 130px;
+    width: 240px;
+
+    font-size: 10px;
+  }
+  .text2{
+    
+    padding-bottom: 2px;
+
+  }
+  .photo1,.photo2{
+    width: 170px;
+    height: 100px;
+
+  }
+  h1{
+    font-size: 23px;
+    
+  }
+  h2{
+    font-size: 15px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  .footerText{
+    font-size: 10px;
+  }
+}
+@media  screen and (max-width:509px) {
+  .first ,.second{
+    width: 360px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+  font-size: 20px;
+  
+}
+h2{
+  font-size: 12px;
+}
+h3{
+  font-size: 15px;
+}
+  .mainText,.text2{
+  font-size: 8px;
+   width:200px;
+  height: 120px;
+  margin: auto;
+  }
+  
+  
+  
+  .photo1,.photo2{
+    width: 120px;
+    height: 90px;
+
+  }
+  .photo2{
+    margin-left: 5px;
+  }
+  .logo{
+    width: 35px;
+    height: 35px;
+  }
+  .footerText{
+    font-size: 10px;
+  }
+  li a {
+    font-size: 10px;
+  }
+  
+}
